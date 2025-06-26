@@ -3,6 +3,7 @@
 This was the first project of the Lede Program for Data Journalism 2025 at Columbia University.
 
 + Objective:
+
 I was curious to learn how to use the Google Fact Check API, and given the number of conspiracy theories about the Pope that I fact-checked this year, I thought it would be a good starting point.
 
 The API gathers data on fact-checks published by agencies around the world, using a small request form from Google that news organizations add to their websites. This is common practice for fact-checkers, and with each publication we make, we fill out this tool at the end of our reports.
@@ -16,6 +17,7 @@ The API documentation is at: https://developers.google.com/fact-check/tools/
 The code I wrote to request the data is in the file "Data Request - API Fact Check Tool." The results were saved in the Excel file "factcheck_pope_results.xlsx."
 
 + Findings:
+
 The generated spreadsheet had more than 800 rows, and to analyze it, I started with some main questions I wanted to answer about fact-checks related to the Popes.
 
 The code I created to analyze the data and generate charts is in the file "Data Analys."
