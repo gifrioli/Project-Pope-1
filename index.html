@@ -111,17 +111,30 @@
 </head>
 
 <body>
-  <div class="header with-image-bg"></div>
+    <div class="header with-image-bg">
+        <div class="caption">Photo: Vatican News</div>
+    </div>
 
-  <style>
-    .with-image-bg {
-      background-image: url('pope_image.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 500px;
-    }
-  </style>
+<style>
+  .with-image-bg {
+    background-image: url('pope_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    color: white; /* cor do texto da legenda */
+  }
 
+  .caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0); /* fundo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+  }
+</style>
     <div class="content">
         <div class="header">
             <h1>Is Lying About the Pope a Sin?</h1>
