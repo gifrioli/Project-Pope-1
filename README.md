@@ -8,7 +8,7 @@ I was curious to learn how to use the Google Fact Check API, and given the numbe
 
 The API gathers data on fact-checks published by agencies around the world, using a small request form from Google that news organizations add to their websites. This is common practice for fact-checkers, and with each publication we make, we fill out this tool at the end of our reports.
 
-The API data includes the claim, the verdict given by fact-checkers about the analyzed content, the date, and other additional information that is filled out in a rather unorganized way, such as the social network and the author of the post. I decided not to use these last two pieces of information precisely because there is a significant lack of standardization, which would make analysis very difficult.
+Data includes the claim, the verdict given by fact-checkers about the analyzed content, the date, and other additional information that is filled out in a rather unorganized way, such as the social network and the author of the post. I decided not to use these last two pieces of information precisely because there is a significant lack of standardization, which would make analysis very difficult.
 
 The API documentation is at: https://developers.google.com/fact-check/tools/
 
